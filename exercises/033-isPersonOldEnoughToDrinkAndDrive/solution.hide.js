@@ -7,3 +7,5 @@ function isPersonOldEnoughToDrinkAndDrive(person) {
 
   return false
 }
+
+//drinking and driving is always illegal so it should result to always false
