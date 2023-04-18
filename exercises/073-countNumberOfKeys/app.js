@@ -1,6 +1,6 @@
 let obj = {
-    person:"Rafael",
-    lastName:"Leao",
+    person: "Rafael",
+    lastName: "Leao",
     country: "Italy",
     city: "Milan",
     phoneNum: "123-456-789",
@@ -9,6 +9,8 @@ let obj = {
 
 function countNumberOfKeys(obj) {
     // your code here
-   
+    const keys = Object.keys(obj)
+    return keys.length;
+
 }
 console.log(countNumberOfKeys(obj))
